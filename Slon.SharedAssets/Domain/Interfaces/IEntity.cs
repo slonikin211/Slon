@@ -1,4 +1,4 @@
-﻿namespace SharedAssets.Domain.Interfaces;
+﻿namespace Slon.SharedAssets.Domain.Interfaces;
 
 /// <summary>
 /// Represents an entity in the domain.
