@@ -27,12 +27,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="..\README.md" Pack="true" PackagePath="\"/>
-		<None Include="..\LICENSE.txt" Pack="true" PackagePath="\"/>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\LICENSE.txt" Pack="true" PackagePath="\" />
 	</ItemGroup>
 	
 	<ItemGroup>
-		<PackageReference Include="MediatR.Contracts" Version="2.0.1" />
+		<PackageReference Include="MediatR" Version="12.1.1" />
 	</ItemGroup>
 
 </Project>
