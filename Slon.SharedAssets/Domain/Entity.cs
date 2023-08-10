@@ -1,6 +1,6 @@
-﻿using SharedAssets.Domain.Interfaces;
+﻿using Slon.SharedAssets.Domain.Interfaces;
 
-namespace SharedAssets.Domain;
+namespace Slon.SharedAssets.Domain;
 
 /// <summary>
 /// Represents an abstract base class for entities in the domain, implementing the <see cref="IEntity"/> interface.

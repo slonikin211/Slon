@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace SharedAssets.Domain.Interfaces;
+namespace Slon.SharedAssets.Domain.Interfaces;
 
 /// <summary>
 /// Represents a domain event.

@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace SharedAssets.Common;
+namespace Slon.SharedAssets.Common;
 
 /// <summary>
 /// Represents the outcome of an operation, encapsulating success or failure along with error information.
