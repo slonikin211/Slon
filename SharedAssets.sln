@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedAssets", "SharedAssets\SharedAssets.csproj", "{1D3C77AF-263B-46B5-95C8-ABA6A9B9441E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedAssets", "SharedAssets\SharedAssets.csproj", "{1D3C77AF-263B-46B5-95C8-ABA6A9B9441E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEA820FA-CC24-428B-813F-7DF7D400A0C8}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E58481AB-A9EF-4E1B-8A61-5AEB551A1400}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D3C77AF-263B-46B5-95C8-ABA6A9B9441E} = {E58481AB-A9EF-4E1B-8A61-5AEB551A1400}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ABBAB754-439A-4932-8832-07D5FAD1EA98}
