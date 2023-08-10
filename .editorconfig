@@ -26,6 +26,9 @@ csharp_prefer_static_local_function = true:suggestion
 csharp_style_conditional_delegate_call = true:suggestion
 csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
 
+# CA1707: Identifiers should not contain underscores
+dotnet_diagnostic.CA1707.severity = none
+
 [*.{cs,vb}]
 dotnet_style_operator_placement_when_wrapping = beginning_of_line
 tab_width = 4

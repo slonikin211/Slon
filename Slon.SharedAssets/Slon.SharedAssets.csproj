@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>Slon.SharedAssets</PackageId>
+		<PackageVersion>0.2.0</PackageVersion>
+		<Title>Slon.SharedAssets</Title>
+		<Authors>George Park</Authors>
+		<PackageProjectUrl>
+			https://github.com/slonikin211/SharedAssets
+		</PackageProjectUrl>
+		<PackageIconUrl>icon.jpg</PackageIconUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<Description>
+			Shared asssets that implements some Clean Architecture and DDD princinples/patterns
+		</Description>
+		<Tags>
+			ddd clean architecture csharp dotnet extensions
+		</Tags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\LICENSE.txt" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="MediatR" Version="12.1.1" />
+	</ItemGroup>
+
+</Project>
