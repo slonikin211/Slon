@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E58481AB-A9E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Slon.SharedAssets", "Slon.SharedAssets\Slon.SharedAssets.csproj", "{08F15D5D-CD85-41AE-8794-44F95320C266}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{50686DAF-F4FC-49F3-AD21-04CE50BD6268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slon.SharedAssets.UnitTests", "Slon.SharedAssets.UnitTests\Slon.SharedAssets.UnitTests.csproj", "{0D7C653F-0551-44DF-AF1F-E9CD3C6E2F89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,12 +28,17 @@ Global
 		{08F15D5D-CD85-41AE-8794-44F95320C266}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08F15D5D-CD85-41AE-8794-44F95320C266}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08F15D5D-CD85-41AE-8794-44F95320C266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7C653F-0551-44DF-AF1F-E9CD3C6E2F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7C653F-0551-44DF-AF1F-E9CD3C6E2F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7C653F-0551-44DF-AF1F-E9CD3C6E2F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7C653F-0551-44DF-AF1F-E9CD3C6E2F89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{08F15D5D-CD85-41AE-8794-44F95320C266} = {E58481AB-A9EF-4E1B-8A61-5AEB551A1400}
+		{0D7C653F-0551-44DF-AF1F-E9CD3C6E2F89} = {50686DAF-F4FC-49F3-AD21-04CE50BD6268}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ABBAB754-439A-4932-8832-07D5FAD1EA98}

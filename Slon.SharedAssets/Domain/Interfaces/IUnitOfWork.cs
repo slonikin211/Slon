@@ -1,4 +1,4 @@
-﻿namespace SharedAssets.Domain.Interfaces;
+﻿namespace Slon.SharedAssets.Domain.Interfaces;
 
 /// <summary>
 /// Represents a unit of work for managing changes to the data store.
