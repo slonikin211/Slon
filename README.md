@@ -1,48 +1,48 @@
-# Slon
+﻿# Slon
 
-[![NuGet Version](https://img.shields.io/nuget/v/Your.Package.Name.svg)](https://www.nuget.org/packages/Your.Package.Name/)
+![Version](https://img.shields.io/badge/version-0.2.0-blue)
+![Development Status](https://img.shields.io/badge/status-under%20development-orange)
+
+[![NuGet Version](https://img.shields.io/nuget/v/Your.Package.Name.svg)](https://www.nuget.org/packages/Slon.SharedAssets/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Overview
+## Introduction
 
-Welcome to the **Slon** library, which aims to demonstrate Domain-Driven Design (DDD) and Clean Architecture principles in a .NET context. This library provides abstractions, interfaces, and base classes that can be used to build well-structured and maintainable applications.
+**Slon** is a library designed to aid developers in implementing Domain-Driven Design (DDD) and Clean Architecture concepts. With features like CQRS via MediatR interfaces, entities with strongly typed IDs, domain events interface, and more, it provides a foundational set of tools to help write cleaner, more organized code.
 
-## Features
+🚧 Note: The library is currently under active development. Some features might be experimental, and breaking changes may occur.
 
-- [x] Implement DDD concepts like entities, domain events, and aggregates.
-- [x] Define interfaces for domain-driven architecture.
-- [x] Embrace Clean Architecture by providing clear separation of concerns.
-- [x] Utilize MediatR for efficient event-driven communication.
-- [x] Includes a Unit of Work pattern for data persistence.
-- [x] Designed for extensibility and customization.
+## Prerequisites
+
+- .NET 7
 
 ## Installation
 
-Install the library via NuGet Package Manager:
-
-```sh
-dotnet add package Your.Package.Name
+Install Slon via NuGet with the following command:
+```
+dotnet add package Slon.SharedAssets
 ```
 
 ## Usage
 
-### 1. Install the Package
+[Coming Soon: Basic examples will be added to guide users on how to utilize the functionalities of this library.]
 
-First, install the library via NuGet Package Manager:
+## Customization
 
-```sh
-dotnet add package Your.Package.Name
-```
+Slon is designed to be extensible. Given its public repository, developers are encouraged to adapt and customize it according to their needs.
 
+## Support & Contribution
 
-### 2. Documentation
+While there's no formal process for reporting issues or getting assistance, contributions to the library are welcome. As the library grows, there may be more defined ways to engage and contribute.
 
-[TODO]...
+## Updates
 
-## Contributing
-
-[TODO]...
+The future update schedule for Slon is currently undefined. Keep an eye on the repository for any changes or improvements.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Slon is licensed under the MIT License. This means you're free to use, modify, and distribute the library, subject to the terms of the MIT License.
+
+## Miscellaneous
+
+Currently, there are no additional resources like screenshots, gifs, or badges. The library is in its early stage (v0.2.0), and more features and enhancements may be introduced in the future.
