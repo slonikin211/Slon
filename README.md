@@ -3,7 +3,7 @@
 ![Version](https://img.shields.io/badge/version-0.3.0-blue)
 ![Development Status](https://img.shields.io/badge/status-under%20development-orange)
 
-[![NuGet Version](https://img.shields.io/nuget/v/Your.Package.Name.svg)](https://www.nuget.org/packages/Slon.SharedAssets/)
+[![NuGet Version](https://img.shields.io/nuget/v/Slon.SharedAssets.png)](https://www.nuget.org/packages/Slon.SharedAssets/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Introduction
