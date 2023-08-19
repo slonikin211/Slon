@@ -1,6 +1,6 @@
 ﻿# Slon
 
-![Version](https://img.shields.io/badge/version-0.4.0-blue)
+![Version](https://img.shields.io/badge/version-0.4.1-blue)
 ![Development Status](https://img.shields.io/badge/status-under%20development-orange)
 
 [![NuGet Version](https://img.shields.io/nuget/v/Slon.SharedAssets.png)](https://www.nuget.org/packages/Slon.SharedAssets/)
@@ -45,4 +45,4 @@ Slon is licensed under the MIT License. This means you're free to use, modify, a
 
 ## Miscellaneous
 
-Currently, there are no additional resources like screenshots, gifs, or badges. The library is in its early stage (v0.4.0), and more features and enhancements may be introduced in the future.
+Currently, there are no additional resources like screenshots, gifs, or badges. The library is in its early stage (v0.4.1), and more features and enhancements may be introduced in the future.
