@@ -8,7 +8,9 @@ namespace Slon.SharedAssets.Application.Messaging;
 /// <summary>
 /// Represents a handler for domain events.
 /// </summary>
-public interface IDomainEventHandler : INotificationHandler<IDomainEvent>
+public interface IDomainEventHandler<TDomainEvent>
+    : INotificationHandler<TDomainEvent>
+    where TDomainEvent : IDomainEvent
 {
 }
 #pragma warning restore CA1711 // Identifiers should not have incorrect suffix
