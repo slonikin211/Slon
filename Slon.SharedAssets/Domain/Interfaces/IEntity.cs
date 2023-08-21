@@ -1,18 +1,14 @@
 ﻿namespace Slon.SharedAssets.Domain.Interfaces;
 
 /// <summary>
-/// Represents an entity in the domain.
+/// Represents the interface for an entity in Domain-Driven Design (DDD) principles.
+/// Entities are distinct objects within the domain that have a unique identity.
 /// </summary>
-public interface IEntity
+/// <typeparam name="TEntityId">The type of the entity's unique identifier.</typeparam>
+public interface IEntity<TEntityId>
 {
     /// <summary>
-    /// Retrieves a read-only list of domain events associated with the entity.
+    /// Gets or sets the unique identifier of the entity.
     /// </summary>
-    /// <returns>A read-only list of domain events.</returns>
-    IReadOnlyList<IDomainEvent> GetDomainEvents();
-
-    /// <summary>
-    /// Clears the list of domain events associated with the entity.
-    /// </summary>
-    void ClearDomainEvents();
+    TEntityId Id { get; init; }
 }
