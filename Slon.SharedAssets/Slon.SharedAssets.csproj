@@ -25,6 +25,7 @@
 		<Tags>
 			ddd clean architecture csharp dotnet extensions
 		</Tags>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
 
 	<ItemGroup>
